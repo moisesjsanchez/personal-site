@@ -1,33 +1,42 @@
 <template>
 
-<!-- Hero Image -->
-  <v-container>
-    <v-row>
-      <v-col class="text-center mt-5" cols="12">
-        <h1> MOISES SANCHEZ </h1>
-        <v-divider dark />
-        <h4> Welcome to My Webpage </h4>
-      </v-col>
-    </v-row>
-    <!-- Button Rows -->
-    <div class="text-center">
-      <v-col cols="12">
-        <v-btn class="ma-2" outlined color="black">
-          <v-icon small left class="fab fa-github-square" />
-          <div> Github </div>
-        </v-btn>
-        <v-btn class="ma-2" outlined color="black">
-          <v-icon small left class="fab fa-linkedin" />
-          <div> LinkedIn </div>
-        </v-btn>
-        <v-btn class="ma-2" outlined color="black">
-          <v-icon small left class="fas fa-pen-square " />
-          <div> Resume </div>
-        </v-btn>
-      </v-col>
-    </div>
+  <!-- Hero Image -->
 
-  </v-container>
+  <v-content>
+    <v-app-bar fixed=True>
+      <v-row class="align-center">
+        <v-col class="text-center">
+          <v-btn class="mr-3" text>Projects</v-btn>
+          <v-btn class="mr-3" text>About Me</v-btn>
+          <v-btn class="mr-3" text>Projects</v-btn>
+        </v-col>
+      </v-row>
+    </v-app-bar>
+    <section>
+      <v-parallax src="@/static/hongkong.jpeg" height="900">
+        <v-row align="center" justify="center">
+          <v-col class="text-center" cols="12">
+            <h1 class="display-3 font-weight-thin mb-4 white--text">MOISES J.SANCHEZ</h1>
+            <h3 class="subheading display-1 font-weight-thin white--text">Programmer-Data Enthusiast-Musician</h3>
+            <v-col class="mb-10" cols="12">
+              <v-btn class="ma-5" dark color="black" href="https://github.com/moisesjsanchez">
+                <v-icon small left class="fab fa-github-square" />
+                <div> Github </div>
+              </v-btn>
+              <v-btn class="ma-5" dark color="black" href="https://www.linkedin.com/in/moisesjsanchez/">
+                <v-icon small left class="fab fa-linkedin" />
+                <div> LinkedIn </div>
+              </v-btn>
+              <v-btn class="ma-5" dark color="black">
+                <v-icon small left class="fas fa-pen-square " />
+                <div> Resume </div>
+              </v-btn>
+            </v-col>
+          </v-col>
+        </v-row>
+      </v-parallax>
+    </section>
+  </v-content>
 
 </template>
 
