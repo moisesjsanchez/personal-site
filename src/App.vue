@@ -11,6 +11,7 @@
 
 import Home from './components/home/Home'
 import Projects from './components/projects/Projects'
+
 export default {
 
   components: {
