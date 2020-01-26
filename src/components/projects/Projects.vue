@@ -8,8 +8,8 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col md="6" xs="12">
         <!-- Start of Project Card -->
+        <v-col md="6" xs="12">
         <v-card class="mx-auto mt-5" max-width="600">
           <v-img aspect-ratio="2.5" src="" />
           <v-card-title>Guitarist Toolbox Public API</v-card-title>
