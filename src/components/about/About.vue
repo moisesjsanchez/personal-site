@@ -17,13 +17,20 @@
       </v-col>
       <v-col cols="12">
         <p class="mt-5">Hello! I am Moises Sanchez, a graduate of the University of California Santa Barbara with a degree in Mathematics with
-          an Emphasis on Scientific Computing. For my entire degree I have been solving advanced mathematical and statistical problems from various areas in
-          science by coding scripts in Python and R. Around my Junior year of college I got into video
-          game development using Unity, and then from there I made programming into a hobby! While I do not make as many games
-          as I did before, I currently really enjoy creating web applications and various command line tools. </p>
-        <p class="mt-5">While I am not coding I really enjoy writing instrument music, listening to myriad of music genres (mostly math rock,
+          an Emphasis on Scientific Computing. For my entire degree I have been solving advanced mathematical and statistical
+          problems from various areas in science by coding scripts in Python and R. Around my Junior year of college I got
+          into video game development using Unity, and then from there I made programming into a hobby! While I do not make
+          as many games as I did before, I currently really enjoy creating web applications and various command line tools.
+        </p>
+        <p>Currently right now I am:</p>
+        <ul>
+          <li>Learning Golang for creating backend processes</li>
+          <li>Continuously improving and updating with webpage!</li>
+          <li>Improving the front-end of Prog Generator</li>
+        </ul>
+        <p class="mt-5">While I am not coding I really enjoy writing instrument music, listening to a myriad of music genres (mostly math rock, modern prog, 
           jazz fusion, and video game soundtracks), and playing with my dog. If you liked my projects and want to potentially
-          build with me something feel free to shoot an email! </p>
+          build with something me feel free to shoot an email! </p>
       </v-col>
     </v-row>
   </v-container>
@@ -38,8 +45,6 @@
 
 <style>
 
-  .container {
-    max-width: 70vw;
-  }
+
 
 </style>
