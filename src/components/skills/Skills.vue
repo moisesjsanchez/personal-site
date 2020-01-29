@@ -54,6 +54,8 @@
           <v-card-text class="body-1">
             <ul>
               <li>Git</li>
+              <li>Heroku</li>
+              <li>Netlify</li>
               <li>Atom</li>
               <li>Studio Visual Code</li>
               <li>Postman</li>
