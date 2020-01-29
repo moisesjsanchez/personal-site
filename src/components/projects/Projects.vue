@@ -49,11 +49,11 @@
               </v-chip>
               <v-divider />
               <!-- Links -->
-              <v-chip class="mx-3 mt-5" href="https://github.com/moisesjsanchez/Guitarist-Toolbox">
+              <v-chip class="mx-3 mt-5" href="https://github.com/moisesjsanchez/Guitarist-Toolbox" target="_blank">
                 <v-avatar class="fab fa-github" />
                 <div class="caption font-weight-medium">View The Code</div>
               </v-chip>
-              <v-chip class="mx-3 mt-5" href="https://guitarist-toolbox.herokuapp.com/">
+              <v-chip class="mx-3 mt-5" href="https://guitarist-toolbox.herokuapp.com/" target="_blank">
                 <v-avatar class="far fa-eye" />
                 <div class="caption font-weight-medium">View The Project</div>
               </v-chip>
@@ -92,7 +92,7 @@
             </v-chip>
             <v-divider />
             <!-- Links -->
-            <v-chip class="mx-3 mt-5" href="https://github.com/moisesjsanchez/Fathom-Chan">
+            <v-chip class="mx-3 mt-5" href="https://github.com/moisesjsanchez/Fathom-Chan" target="_blank">
               <v-avatar class="fab fa-github" />
               <div class="caption font-weight-medium">View The Code</div>
             </v-chip>
@@ -155,7 +155,7 @@
             </v-chip>
             <v-divider />
             <!-- Links -->
-            <v-chip class="mx-3 mt-5" href="https://github.com/moisesjsanchez/ChordMe">
+            <v-chip class="mx-3 mt-5" href="https://github.com/moisesjsanchez/ChordMe" target="_blank">
               <v-avatar class="fab fa-github" />
               <div class="caption font-weight-medium">View The Code</div>
             </v-chip>
@@ -199,11 +199,11 @@
             </v-chip>
             <v-divider />
             <!-- Links -->
-            <v-chip class="mx-3 mt-5" href="https://github.com/moisesjsanchez/prog-generator">
+            <v-chip class="mx-3 mt-5" href="https://github.com/moisesjsanchez/prog-generator" target="_blank">
               <v-avatar class="fab fa-github" />
               <div class="caption font-weight-medium">View The Code</div>
             </v-chip>
-            <v-chip class="mx-3 mt-5" href="https://prog-generator.herokuapp.com/">
+            <v-chip class="mx-3 mt-5" href="https://prog-generator.herokuapp.com/" target="_blank">
               <v-avatar class="far fa-eye" />
               <div class="caption font-weight-medium">View The Project</div>
             </v-chip>
