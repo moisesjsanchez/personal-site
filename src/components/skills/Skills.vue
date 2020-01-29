@@ -1,66 +1,68 @@
 <template>
 
-  <v-container>
-    <v-row align="center" justify="center">
+  <v-container class="Skills">
+    <v-row align="center" class="mt-10 pt-5" justify="center">
       <v-col class="text-center" cols="12">
         <h1 class="display-3 mb-4 black--text">Skills</h1>
         <v-divider light />
       </v-col>
     </v-row>
     <v-row>
-    <!-- Start of Project Card -->
-    <v-col md="6" xs="12">
-    <v-card class="mx-auto mt-5" max-width="600">
-      <v-img aspect-ratio="2.5" src="" />
-      <v-card-title>Guitarist Toolbox Public API</v-card-title>
-      <v-divider/>
-      <v-card-text class="text-primary">
-        This is a public RESTful API which allows the developer to get various guitar compositional tools which as scales, chord
-        progressions, techniques, and time signatures. Currently this API allows to get types of tools, subtypes of tools,
-        and random tools based on type. Documenation of this API can found in the Github repo linked down below.
-      </v-card-text>
-      <v-divider />
-      <!-- Skill Holder -->
-      <v-card-text>
-        <v-chip class="mx-3 mb-3">
-          <v-avatar>
-            <v-img class="mr-2" max-height="20px" max-width="20px" src="@/static/python.png" />
-          </v-avatar>
-          <div class="caption font-weight-medium">Python</div>
-        </v-chip>
-        <v-chip class="mx-3 mb-3">
-          <v-avatar>
-            <v-img class="mr-2" max-height="20px" max-width="20px" src="@/static/flask.png" />
-          </v-avatar>
-          <div class="caption font-weight-medium">Flask</div>
-        </v-chip>
-        <v-chip class="mx-3 mb-3">
-          <v-avatar>
-            <v-img class="mr-2" max-height="20px" max-width="20px" src="@/static/postGreSQL.png" />
-          </v-avatar>
-          <div class="caption font-weight-medium">PostgreSQL</div>
-        </v-chip>
-        <v-chip class="mx-3 mb-3">
-          <v-avatar>
-            <v-img class="mr-2" max-height="20px" max-width="20px" src="@/static/heroku.png" />
-          </v-avatar>
-          <div class="caption font-weight-medium">Heroku</div>
-        </v-chip>
-        <v-divider />
-        <!-- Links -->
-        <v-chip class="mx-3 mt-5" href="https://github.com/moisesjsanchez/Guitarist-Toolbox">
-          <v-avatar class="fab fa-github" />
-          <div class="caption font-weight-medium">View The Code</div>
-        </v-chip>
-        <v-chip class="mx-3 mt-5" href="https://guitarist-toolbox.herokuapp.com/">
-          <v-avatar class="far fa-eye" />
-          <div class="caption font-weight-medium">View The Project</div>
-        </v-chip>
-      </v-card-text>
-    </v-card>
-  </v-col>
-</v-row>
-    <!-- End of Project Card -->
+      <!-- Start of Skill Card -->
+      <v-col md="4" sm="12" xs="12">
+        <v-card class="mx-auto mt-5" max-width="600" height="100%">
+          <v-card-title class="justify-center headline">Languages</v-card-title>
+          <v-divider />
+          <!-- Skill Holder -->
+          <v-card-text class="body-1">
+            <ul>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>R</li>
+              <li>C++</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <!-- End of Skill Card -->
+      <!-- Start of Skill Card -->
+      <v-col md="4" sm="12" xs="12">
+        <v-card class="mx-auto mt-5" max-width="600" height="100%">
+          <v-card-title class="justify-center headline">Frameworks</v-card-title>
+          <v-divider />
+          <!-- Skill Holder -->
+          <v-card-text class="body-1">
+            <ul>
+              <li>Vue.js</li>
+              <li>Vuetify</li>
+              <li>Tone.js</li>
+              <li>Flask</li>
+              <li>Sass</li>
+            </ul>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <!-- End of Skill Card -->
+      <!-- Start of Skill Card -->
+      <v-col md="4" sm="12" xs="12">
+        <v-card class="mx-auto mt-5" max-width="600" height="100%">
+          <v-card-title class="justify-center headline">Tools</v-card-title>
+          <v-divider />
+          <!-- Skill Holder -->
+          <v-card-text class="body-1">
+            <ul>
+              <li>Git</li>
+              <li>Atom</li>
+              <li>Studio Visual Code</li>
+              <li>Postman</li>
+            </ul>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <!-- End of Skill Card -->
+    </v-row>
   </v-container>
 
 </template>
