@@ -32,7 +32,7 @@
                   <v-icon small left class="fas fa-envelope-square" />
                   <div> Email </div>
                 </v-btn>
-                <v-btn class="ma-3" dark color="black" target="_blank">
+                <v-btn class="ma-3" dark color="black" href="https://moisesjsanchez.github.io/static/MoisesSanchezCV.pdf" target="_blank">
                   <v-icon small left class="fas fa-pen-square" />
                   <div> Resume </div>
                 </v-btn>

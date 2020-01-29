@@ -16,7 +16,7 @@
         </v-avatar>
       </v-col>
       <v-col cols="12">
-        <p class="mt-5">Hello! I am Moises Sanchez, a graduate of the University of California Santa Barbara with a degree in Mathematics with
+        <p class="mt-5">Hello! I am Moises Sanchez, a graduate of the UC Santa Barbara with a degree in Mathematics with
           an Emphasis on Scientific Computing. For my entire degree I have been solving advanced mathematical and statistical
           problems from various areas in science by coding scripts in Python and R. Around my Junior year of college I got
           into video game development using Unity, and then from there I made programming into a hobby! While I do not make
@@ -25,12 +25,12 @@
         <p>Currently right now I am:</p>
         <ul>
           <li>Learning Golang for creating backend processes</li>
-          <li>Continuously improving and updating with webpage!</li>
+          <li>Continuously improving and updating this web page!</li>
           <li>Improving the front-end of Prog Generator</li>
         </ul>
-        <p class="mt-5">While I am not coding I really enjoy writing instrument music, listening to a myriad of music genres (mostly math rock, modern prog, 
+        <p class="mt-5">While I am not coding I really enjoy writing instrument music, listening to a myriad of music genres (mostly math rock, modern prog,
           jazz fusion, and video game soundtracks), and playing with my dog. If you liked my projects and want to potentially
-          build with something me feel free to shoot an email! </p>
+          build something with me feel free to shoot an email! </p>
       </v-col>
     </v-row>
   </v-container>
