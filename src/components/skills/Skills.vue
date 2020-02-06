@@ -48,7 +48,7 @@
       <!-- Start of Skill Card -->
       <v-col md="4" sm="12" xs="12">
         <v-card class="mx-auto mt-5" max-width="600" height="100%">
-          <v-card-title class="justify-center headline">Tools</v-card-title>
+          <v-card-title class="justify-center headline">Other</v-card-title>
           <v-divider />
           <!-- Skill Holder -->
           <v-card-text class="body-1">
@@ -57,7 +57,7 @@
               <li>Heroku</li>
               <li>Netlify</li>
               <li>Atom</li>
-              <li>Studio Visual Code</li>
+              <li>Studio Code</li>
               <li>Postman</li>
             </ul>
           </v-card-text>
