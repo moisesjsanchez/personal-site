@@ -57,7 +57,7 @@
               <li>Heroku</li>
               <li>Netlify</li>
               <li>Atom</li>
-              <li>Studio Code</li>
+              <li>Visual Studio Code</li>
               <li>Postman</li>
             </ul>
           </v-card-text>
