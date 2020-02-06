@@ -26,7 +26,7 @@
         <ul>
           <li>Learning Golang for creating backend processes</li>
           <li>Continuously improving and updating this web page!</li>
-          <li>Improving the front-end of Prog Generator</li>
+          <li>Developing a riff writing chrome extention inspired by Monster Rancher's monster generation mechanic</li>
         </ul>
         <p class="mt-5">While I am not coding I really enjoy writing instrument music, listening to a myriad of music genres (mostly math rock, modern prog,
           jazz fusion, and video game soundtracks), and playing with my dog. If you liked my projects and want to potentially
