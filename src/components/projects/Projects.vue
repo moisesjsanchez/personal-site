@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mt-10 Projects">
+  <v-container class="mt-5 Projects">
     <v-row align="center" class="mt-10 pt-5" justify="center">
       <v-col class="text-center" cols="12">
         <h1 class="display-3 mb-4 black--text">Projects</h1>
@@ -196,68 +196,6 @@
       </v-col>
       <!-- End of Project Card -->
     </v-row>
-    <v-col md="6" xs="12" cols="12">
-      <!-- Start of Project Card -->
-      <v-card class="mx-auto mt-5" max-width="700">
-        <v-divider class="mt-2" />
-        <v-card-title>ChordMe</v-card-title>
-        <v-card-text>Disclaimer: Project Work in Progress. </v-card-text>
-        <v-divider/>
-        <v-card-text class="text-primary">
-          When finished this is going to be a web application which allows registered users to create,edit,save and delete custom chord
-          progressions with custom string naming. This application was created because I wanted a simple and easy to locate
-          application what allowed me to create strange and bizzare chord voicings while I browse the youtube for musical inspiration
-          or noodle around. Currently I have only the API finished, and currently writing the front end using Vue.js.
-        </v-card-text>
-        <v-divider />
-        <!-- Skill Holder -->
-        <v-card-text>
-          <v-chip class="mx-3 mb-3">
-            <v-avatar>
-              <v-img class="mr-2" max-height="20px" max-width="20px" src="@/static/python.png" />
-            </v-avatar>
-            <div class="caption font-weight-medium">Python</div>
-          </v-chip>
-          <v-chip class="mx-3 mb-3">
-            <v-avatar>
-              <v-img max-height="20px" max-width="30px" src="@/static/flask.png" />
-            </v-avatar>
-            <div class="caption font-weight-medium">Flask</div>
-          </v-chip>
-          <v-chip class="mx-3 mb-3">
-            <v-avatar>
-              <v-img class="mr-2" max-height="20px" max-width="20px" src="@/static/postGreSQL.png" />
-            </v-avatar>
-            <div class="caption font-weight-medium">PostgreSQL</div>
-          </v-chip>
-          <v-chip class="mx-3 mb-3">
-            <v-avatar>
-              <v-img class="mr-2" max-height="20px" max-width="20px" src="@/static/vue.png" />
-            </v-avatar>
-            <div class="caption font-weight-medium">Vue.js</div>
-          </v-chip>
-          <v-chip class="mx-3 mb-3">
-            <v-avatar>
-              <v-img class="mr-2" max-height="20px" max-width="20px" src="@/static/vuetify.png" />
-            </v-avatar>
-            <div class="caption font-weight-medium">Vuetify</div>
-          </v-chip>
-          <v-chip class="mx-3 mb-3">
-            <v-avatar>
-              <v-img class="mr-2" max-height="20px" max-width="20px" src="@/static/heroku.png" />
-            </v-avatar>
-            <div class="caption font-weight-medium">Heroku</div>
-          </v-chip>
-          <v-divider />
-          <!-- Links -->
-          <v-chip class="mx-3 mt-5 blue lighten-2" href="https://github.com/moisesjsanchez/ChordMe" target="_blank">
-            <v-avatar class="fab fa-github" />
-            <div class="caption font-weight-medium">View The Code</div>
-          </v-chip>
-        </v-card-text>
-      </v-card>
-      <!-- End of Project Card -->
-    </v-col>
   </v-container>
 
 </template>
